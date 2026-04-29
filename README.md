@@ -82,7 +82,7 @@ pip install tensorflow scikit-learn matplotlib seaborn pandas numpy
 
 You do **not** need to retrain from scratch. Follow these steps:
 
-### Step 1 — Download model checkpoints
+### Step 1 — Download model checkpoints (Optional)
 
 The three `.keras` checkpoint files are hosted on Google Drive due to their size:
 
@@ -96,6 +96,7 @@ Download all three files from the `DL_MiniProject/` folder:
 ### Step 2 — Open `reproduce_results.ipynb` in Google Colab
 
 ### Step 3 — Upload checkpoints when prompted
+** I have written code that downloads the checkpoints for you without needing to manually download them in your systems. Just simply run**
 
 ### Step 4 — Run all cells
 
