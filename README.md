@@ -105,6 +105,7 @@ The notebook will:
 2. Load each saved model
 3. Evaluate on the test set (accuracy, AUC, precision, recall, F1)
 4. Regenerate all figures: confusion matrices, ROC curves, metric comparison bar chart
+5. Note: training_curves.png and convergence_analysis.png require the training history objects, which are only available during the original training run and cannot be reconstructed from checkpoints alone. These figures are included as static assets in the repository. To fully reproduce them, run the main training notebook mini-project-intro-to-deep-learning.ipynb on Kaggle.
 
 ---
 
