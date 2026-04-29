@@ -1,7 +1,9 @@
 # Breast Cancer Classification on CBIS-DDSM
 ### 24-788 Introduction to Deep Learning — Mini-Project (Spring 2026)
 
-**Team Members:** Aadya Goel (aadyag) · Amisha Dhawan (adhawan)
+**Team Members:** 
+1. Aadya Goel (aadyag)
+2. Amisha Dhawan (adhawan)
 
 ---
 
@@ -87,15 +89,13 @@ The three `.keras` checkpoint files are hosted on Google Drive due to their size
 📁 **[DL_MiniProject — Google Drive](https://drive.google.com/drive/folders/1-GdCJcWcW6YGWTVQw91ehiA8rHLt9FiZ?usp=sharing)**
 
 Download all three files from the `DL_MiniProject/` folder:
-- `ANN_Baseline_best.keras`
+- `ANN_Baseline_final.keras`
 - `ResNet50_Transfer_ft_best.keras`
 - `EfficientNetB0_Transfer_ft_best.keras`
 
 ### Step 2 — Open `reproduce_results.ipynb` in Google Colab
 
 ### Step 3 — Upload checkpoints when prompted
-
-The notebook will display a file upload widget. Select all three `.keras` files.
 
 ### Step 4 — Run all cells
 
@@ -105,13 +105,11 @@ The notebook will:
 3. Evaluate on the test set (accuracy, AUC, precision, recall, F1)
 4. Regenerate all figures: confusion matrices, ROC curves, metric comparison bar chart
 
-> **Note:** You will need to upload your Kaggle API token (`kaggle.json`) or manually provide the CSV files when prompted in the reproduction notebook.
-
 ---
 
 ## Training From Scratch
 
-To retrain all models, open `mini-project-intro-to-deep-learning.ipynb` on Kaggle and run all cells in order. Training time per model on a Kaggle GPU (T4):
+To retrain all models, open `mini-project-intro-to-deep-learning.ipynb` on Kaggle and run all cells in order. Training time per model on a Kaggle GPU (T4/P100):
 
 | Model | Approx. Training Time |
 |---|---|
