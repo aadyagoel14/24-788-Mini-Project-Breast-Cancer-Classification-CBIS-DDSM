@@ -96,7 +96,7 @@ Download all three files from the `DL_MiniProject/` folder:
 ### Step 2 — Open `reproduce_results.ipynb` in Google Colab
 
 ### Step 3 — Upload checkpoints when prompted
-** I have written code that downloads the checkpoints for you without needing to manually download them in your systems. Just simply run**
+**I have written code that downloads the checkpoints for you without needing to manually download them in your systems. Just simply run**
 
 ### Step 4 — Run all cells
 
